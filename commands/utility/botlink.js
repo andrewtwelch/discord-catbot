@@ -1,4 +1,4 @@
-const { SlashCommandBuilder } = require('discord.js');
+const { SlashCommandBuilder, EmbedBuilder } = require('discord.js');
 const { clientId } = require('../../config.json');
 
 module.exports = {
@@ -9,7 +9,7 @@ module.exports = {
         const botLink = `https://discord.com/oauth2/authorize?client_id=${clientId}`;
         const botLinkEmbed = new EmbedBuilder()
         .setTitle("Add CatBot to your server!")
-        .setURL(botLink);;
+        .setURL(botLink);
         await interaction.reply({ embeds: [botLinkEmbed] });
     },
 };
