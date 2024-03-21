@@ -1,6 +1,6 @@
 {
   "name": "discord-catbot",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Discord bot for posting cat pictures",
   "main": "index.js",
   "scripts": {
