@@ -1,0 +1,25 @@
+{
+  "name": "discord-catbot",
+  "version": "0.0.1",
+  "description": "Discord bot for posting cat pictures",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andrewtwelch/discord-catbot.git"
+  },
+  "author": "Andrew Welch",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/andrewtwelch/discord-catbot/issues"
+  },
+  "homepage": "https://github.com/andrewtwelch/discord-catbot#readme",
+  "dependencies": {
+    "discord.js": "^14.12.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.57.0"
+  }
+}
